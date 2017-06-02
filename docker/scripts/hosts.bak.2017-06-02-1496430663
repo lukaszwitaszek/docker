@@ -33,7 +33,3 @@ fe80::1%lo0	localhost
 # added automatically by hosts.sh scritp from dedicated folder
 127.0.0.1 docker.dev
 127.0.0.1 www.docker.dev
-
-# added automatically by hosts.sh scritp from dedicated folder
-127.0.0.1 slim1.docker.dev
-127.0.0.1 www.slim1.docker.dev

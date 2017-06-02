@@ -1,4 +1,6 @@
 <?php
+
+echo "ala ma kota";
 phpinfo();
 
 $pdo = new PDO(

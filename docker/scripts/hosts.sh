@@ -10,9 +10,9 @@ hostFileLocation=/private/etc/hosts
 # adres IP dla danej domeny
 IP=127.0.0.1
 # nazwa domenowa
-dName=docker.dev
+dName=slim1.docker.dev
 # alias www
-dAliasName=www.docker.dev
+dAliasName=www.slim1.docker.dev
 
 d=$(date +%Y-%m-%d-%s)
 cp $hostFileLocation ./hosts.bak.$d
