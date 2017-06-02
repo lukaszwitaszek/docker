@@ -3,7 +3,7 @@ web:
   ports:
     - "8080:80"
   volumes:
-    - ./public:/var/www/public
+    - ./:/var/www
     - ./conf/vhost.conf:/etc/nginx/sites-enabled/vhost.conf
   links:
     - php
@@ -11,7 +11,7 @@ php:
   image: nmcteam/php56
   volumes:
     - ./conf/php-fpm.conf:/etc/php5/fpm/php-fpm.conf
-    - ./public:/var/www/public
+    - ./:/var/www
   links:
     - db
 db:
